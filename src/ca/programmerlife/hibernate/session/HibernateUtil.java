@@ -1,4 +1,4 @@
-package caprogrammerlife.hibernation.session;
+package ca.programmerlife.hibernate.session;
 
 import java.io.PrintWriter;
 import java.io.Serializable;
