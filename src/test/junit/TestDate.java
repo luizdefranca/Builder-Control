@@ -17,7 +17,7 @@ public class TestDate {
 	public void testGetActualDateReportName() {
 		
 		try {
-			String expectedValue = "02/03/2019";
+			String expectedValue = "02-03-2019";
 			String actualValue = DateUtil.getActualDateReportName();
 			assertEquals(expectedValue, actualValue);
 		} catch (Exception e) {

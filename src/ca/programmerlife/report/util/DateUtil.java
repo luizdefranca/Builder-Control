@@ -16,7 +16,7 @@ public class DateUtil implements Serializable {
 	
 	public static String getActualDateReportName() {
 		LocalDate hoje = LocalDate.now();
-		DateTimeFormatter format = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+		DateTimeFormatter format = DateTimeFormatter.ofPattern("MM-dd-yyyy");
 		return hoje.format(format);
 	}
 	
